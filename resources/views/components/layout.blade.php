@@ -14,7 +14,7 @@
 </head>
 
 <body class="flex h-screen flex-col bg-slate-100 selection:bg-sky-600 selection:text-sky-50 dark:bg-slate-950">
-    @include('components.navbar')
+    @include('components.navegation')
 
     <main class="flex-1 p-4">
         {{ $slot }}
